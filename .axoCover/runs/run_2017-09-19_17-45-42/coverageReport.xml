@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="331" visitedSequencePoints="98" numBranchPoints="110" visitedBranchPoints="37" sequenceCoverage="29.61" branchCoverage="33.64" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" maxCrapScore="72" minCrapScore="1" visitedClasses="9" numClasses="12" visitedMethods="22" numMethods="38" />
+  <Modules>
+    <Module hash="D2-83-CD-3D-79-D3-BC-33-29-8A-C2-4D-2F-92-91-42-DA-EF-76-D4">
+      <Summary numSequencePoints="58" visitedSequencePoints="52" numBranchPoints="14" visitedBranchPoints="14" sequenceCoverage="89.66" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="8" numClasses="8" visitedMethods="14" numMethods="14" />
+      <ModulePath>D:\Development\C#\Muses.Networking\Muses.Networking.Tests\bin\Debug\Muses.Networking.Tests.dll</ModulePath>
+      <ModuleTime>2017-09-19T15:45:26.1232905Z</ModuleTime>
+      <ModuleName>Muses.Networking.Tests</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\Development\C#\Muses.Networking\Muses.Networking.Tests\TcpIpSocketTests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="39" visitedSequencePoints="39" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Construction_Null_Argument_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="88" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="38" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_NullBufferArgs_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="6" ordinal="0" offset="6" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="7" ordinal="1" offset="7" sl="20" sc="13" el="20" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="8" ordinal="2" offset="15" sl="21" sc="13" el="21" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="9" ordinal="3" offset="27" sl="23" sc="13" el="26" ec="16" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="10" ordinal="4" offset="45" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="11" ordinal="0" offset="0">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_NullBuffer_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="12" ordinal="0" offset="6" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="13" ordinal="1" offset="7" sl="32" sc="13" el="32" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="14" ordinal="2" offset="15" sl="33" sc="13" el="33" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="15" ordinal="3" offset="27" sl="35" sc="13" el="38" ec="16" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="16" ordinal="4" offset="45" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="17" ordinal="0" offset="0">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_NullBufferArgs_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="18" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="19" ordinal="1" offset="1" sl="44" sc="13" el="44" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="20" ordinal="2" offset="15" sl="45" sc="20" el="45" ec="57" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="21" ordinal="3" offset="27" sl="46" sc="13" el="46" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="22" ordinal="4" offset="28" sl="47" sc="17" el="50" ec="20" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="23" ordinal="5" offset="46" sl="51" sc="13" el="51" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="24" ordinal="6" offset="70" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="18" ordinal="0" offset="0" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="4" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_NullBuffer_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="25" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="26" ordinal="1" offset="1" sl="57" sc="13" el="57" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="27" ordinal="2" offset="15" sl="58" sc="20" el="58" ec="57" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="28" ordinal="3" offset="27" sl="59" sc="13" el="59" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="29" ordinal="4" offset="28" sl="60" sc="17" el="63" ec="20" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="30" ordinal="5" offset="46" sl="64" sc="13" el="64" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="31" ordinal="6" offset="70" sl="65" sc="9" el="65" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="25" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_Closed_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="32" ordinal="0" offset="6" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="33" ordinal="1" offset="7" sl="70" sc="13" el="70" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="34" ordinal="2" offset="15" sl="71" sc="13" el="71" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="35" ordinal="3" offset="27" sl="73" sc="13" el="73" ec="29" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="36" ordinal="4" offset="39" sl="75" sc="13" el="78" ec="16" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="37" ordinal="5" offset="57" sl="79" sc="9" el="79" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="38" ordinal="0" offset="0">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_Closed_Throws()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="39" ordinal="0" offset="6" sl="83" sc="9" el="83" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="40" ordinal="1" offset="7" sl="84" sc="13" el="84" ec="74" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="41" ordinal="2" offset="15" sl="85" sc="13" el="85" ec="51" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="42" ordinal="3" offset="27" sl="87" sc="13" el="87" ec="29" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="43" ordinal="4" offset="39" sl="89" sc="13" el="92" ec="16" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="44" ordinal="5" offset="57" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="45" ordinal="0" offset="0">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="46" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="47" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="48" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Object Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c::&lt;TcpIpSocket_Construction_Null_Argument_Throws&gt;b__0_0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="49" ordinal="0" offset="0" sl="14" sc="65" el="14" ec="86" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="49" ordinal="0" offset="0" sl="14" sc="65" el="14" ec="86" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass1_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass1_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="50" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass1_0::&lt;TcpIpSocket_Read_NullBufferArgs_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="51" ordinal="0" offset="0" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="52" ordinal="1" offset="1" sl="25" sc="17" el="25" ec="44" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="53" ordinal="2" offset="17" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="51" ordinal="0" offset="0" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass2_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass2_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="54" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass2_0::&lt;TcpIpSocket_Read_NullBuffer_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="55" ordinal="0" offset="0" sl="36" sc="13" el="36" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="56" ordinal="1" offset="1" sl="37" sc="17" el="37" ec="36" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="57" ordinal="2" offset="14" sl="38" sc="13" el="38" ec="14" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="55" ordinal="0" offset="0" sl="36" sc="13" el="36" ec="14" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="3" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass3_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="58" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass3_0::&lt;TcpIpSocket_Write_NullBufferArgs_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="59" ordinal="0" offset="0" sl="48" sc="17" el="48" ec="18" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="60" ordinal="1" offset="1" sl="49" sc="21" el="49" ec="49" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="61" ordinal="2" offset="17" sl="50" sc="17" el="50" ec="18" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="59" ordinal="0" offset="0" sl="48" sc="17" el="48" ec="18" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="4" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass4_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass4_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="62" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass4_0::&lt;TcpIpSocket_Write_NullBuffer_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="63" ordinal="0" offset="0" sl="61" sc="17" el="61" ec="18" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="64" ordinal="1" offset="1" sl="62" sc="21" el="62" ec="41" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="65" ordinal="2" offset="14" sl="63" sc="17" el="63" ec="18" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="63" ordinal="0" offset="0" sl="61" sc="17" el="61" ec="18" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass5_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass5_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="66" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass5_0::&lt;TcpIpSocket_Read_Closed_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="67" ordinal="0" offset="0" sl="76" sc="13" el="76" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="68" ordinal="1" offset="1" sl="77" sc="17" el="77" ec="43" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="69" ordinal="2" offset="19" sl="78" sc="13" el="78" ec="14" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="67" ordinal="0" offset="0" sl="76" sc="13" el="76" ec="14" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1.04" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass6_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="70" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" crapScore="1.04" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1.04" minCrapScore="1.04" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void Muses.Networking.Tests.TcpIpSocketTests/&lt;&gt;c__DisplayClass6_0::&lt;TcpIpSocket_Write_Closed_Throws&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="71" ordinal="0" offset="0" sl="90" sc="13" el="90" ec="14" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="72" ordinal="1" offset="1" sl="91" sc="17" el="91" ec="44" bec="0" bev="0" fileid="1">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="73" ordinal="2" offset="19" sl="92" sc="13" el="92" ec="14" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="71" ordinal="0" offset="0" sl="90" sc="13" el="90" ec="14" bec="0" bev="0" fileid="1">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods>
+        <TrackedMethod uid="1" token="100663297" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Construction_Null_Argument_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="2" token="100663298" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_NullBufferArgs_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="3" token="100663299" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_NullBuffer_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="4" token="100663300" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_NullBufferArgs_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="5" token="100663301" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_NullBuffer_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="6" token="100663302" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Read_Closed_Throws()" strategy="MSTestTest" />
+        <TrackedMethod uid="7" token="100663303" name="System.Void Muses.Networking.Tests.TcpIpSocketTests::TcpIpSocket_Write_Closed_Throws()" strategy="MSTestTest" />
+      </TrackedMethods>
+    </Module>
+    <Module hash="F3-80-21-65-D7-E0-F2-E0-8D-C3-2D-9A-A9-BC-83-6B-26-78-BE-D5">
+      <Summary numSequencePoints="273" visitedSequencePoints="46" numBranchPoints="96" visitedBranchPoints="23" sequenceCoverage="16.85" branchCoverage="23.96" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" maxCrapScore="72" minCrapScore="1" visitedClasses="1" numClasses="4" visitedMethods="8" numMethods="24" />
+      <ModulePath>D:\Development\C#\Muses.Networking\Muses.Networking.Tests\bin\Debug\Muses.Networking.dll</ModulePath>
+      <ModuleTime>2017-09-19T15:45:26.0009254Z</ModuleTime>
+      <ModuleName>Muses.Networking</ModuleName>
+      <Files>
+        <File uid="17" fullPath="D:\Development\C#\Muses.Networking\Muses.Networking\TcpIpServer.cs" />
+        <File uid="20" fullPath="D:\Development\C#\Muses.Networking\Muses.Networking\TcpIpSocket.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="178" visitedSequencePoints="0" numBranchPoints="45" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" maxCrapScore="72" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="11" />
+          <FullName>Muses.Networking.TcpIpServer</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpServer::get_MaxConnections()</Name>
+              <FileRef uid="17" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::set_MaxConnections(System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpServer::get_CurrentConnections()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="74" ordinal="0" offset="0" sl="273" sc="13" el="273" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="75" ordinal="1" offset="1" sl="275" sc="17" el="275" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="76" ordinal="2" offset="2" sl="276" sc="21" el="276" ec="43" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="77" ordinal="3" offset="14" sl="277" sc="21" el="277" ec="47" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="78" ordinal="4" offset="28" sl="280" sc="17" el="280" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="79" ordinal="5" offset="29" sl="281" sc="21" el="281" ec="42" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="80" ordinal="6" offset="41" sl="282" sc="17" el="282" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="81" ordinal="7" offset="43" sl="283" sc="13" el="283" ec="14" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="74" ordinal="0" offset="0" sl="273" sc="13" el="273" ec="14" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="4" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="20" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="20" minCrapScore="20" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::.ctor(Muses.Networking.ITcpIpServiceProvider,System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="82" ordinal="0" offset="0" sl="265" sc="51" el="265" ec="52" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="83" ordinal="1" offset="7" sl="26" sc="9" el="26" ec="69" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="84" ordinal="2" offset="14" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="85" ordinal="3" offset="15" sl="29" sc="13" el="29" ec="72" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="86" ordinal="4" offset="34" sl="29" sc="73" el="29" ec="125" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="87" ordinal="5" offset="45" sl="30" sc="13" el="30" ec="87" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="88" ordinal="6" offset="67" sl="31" sc="13" el="31" ec="26" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="89" ordinal="7" offset="74" sl="32" sc="13" el="32" ec="52" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="90" ordinal="8" offset="85" sl="33" sc="13" el="33" ec="48" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="91" ordinal="9" offset="96" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="94" ordinal="2" offset="32" sl="29" path="0" offsetend="34" fileid="17" />
+                <BranchPoint vc="0" uspid="95" ordinal="3" offset="32" sl="29" path="1" offsetend="45" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="82" ordinal="0" offset="0" sl="265" sc="51" el="265" ec="52" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::Start()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="98" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="99" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="35" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="100" ordinal="2" offset="14" sl="44" sc="13" el="44" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="101" ordinal="3" offset="15" sl="45" sc="17" el="45" ec="67" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="102" ordinal="4" offset="37" sl="46" sc="13" el="46" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="103" ordinal="5" offset="38" sl="47" sc="13" el="47" ec="71" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="104" ordinal="6" offset="63" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="105" ordinal="0" offset="12" sl="43" path="0" offsetend="14" fileid="17" />
+                <BranchPoint vc="0" uspid="106" ordinal="1" offset="12" sl="43" path="1" offsetend="38" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="98" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::Stop()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="107" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="108" ordinal="1" offset="1" sl="56" sc="13" el="56" ec="31" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="109" ordinal="2" offset="19" sl="57" sc="13" el="57" ec="30" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="110" ordinal="3" offset="26" sl="60" sc="13" el="60" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="111" ordinal="4" offset="27" sl="61" sc="17" el="61" ec="40" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="112" ordinal="5" offset="39" sl="62" sc="17" el="62" ec="62" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="113" ordinal="6" offset="63" sl="63" sc="17" el="63" ec="38" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="114" ordinal="7" offset="75" sl="64" sc="13" el="64" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="115" ordinal="8" offset="78" sl="66" sc="13" el="66" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="116" ordinal="9" offset="79" sl="67" sc="17" el="67" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="117" ordinal="10" offset="91" sl="68" sc="13" el="68" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="118" ordinal="11" offset="93" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="119" ordinal="0" offset="8" sl="56" path="0" offsetend="10" fileid="17" />
+                <BranchPoint vc="0" uspid="120" ordinal="1" offset="8" sl="56" path="1" offsetend="13" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="107" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::BroadcastMessage(System.Byte[],System.Int32,System.Int32)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="121" ordinal="0" offset="27" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="122" ordinal="1" offset="28" sl="80" sc="13" el="80" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="123" ordinal="2" offset="29" sl="81" sc="17" el="81" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="124" ordinal="3" offset="41" sl="82" sc="17" el="82" ec="84" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="125" ordinal="4" offset="65" sl="83" sc="13" el="83" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="126" ordinal="5" offset="68" sl="85" sc="13" el="85" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="127" ordinal="6" offset="69" sl="86" sc="17" el="86" ec="38" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="128" ordinal="7" offset="81" sl="87" sc="13" el="87" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="129" ordinal="8" offset="83" sl="88" sc="9" el="88" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="130" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="8" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="46" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::ConnectionReadyHandler(System.IAsyncResult)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="131" ordinal="0" offset="0" sl="96" sc="9" el="96" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="132" ordinal="1" offset="1" sl="97" sc="13" el="97" ec="35" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="133" ordinal="2" offset="14" sl="98" sc="13" el="98" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="134" ordinal="3" offset="15" sl="99" sc="17" el="99" ec="24" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="135" ordinal="4" offset="20" sl="102" sc="13" el="102" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="136" ordinal="5" offset="22" sl="104" sc="13" el="104" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="137" ordinal="6" offset="23" sl="108" sc="17" el="108" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="138" ordinal="7" offset="24" sl="109" sc="21" el="109" ec="58" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="139" ordinal="8" offset="37" sl="110" sc="17" el="110" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="140" ordinal="9" offset="40" sl="111" sc="17" el="111" ec="48" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="141" ordinal="10" offset="41" sl="112" sc="17" el="112" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="142" ordinal="11" offset="42" sl="113" sc="21" el="113" ec="28" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="143" ordinal="12" offset="47" sl="116" sc="17" el="119" ec="67" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="144" ordinal="13" offset="80" sl="122" sc="17" el="122" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="145" ordinal="14" offset="81" sl="123" sc="21" el="123" ec="54" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="146" ordinal="15" offset="93" sl="124" sc="21" el="124" ec="84" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="147" ordinal="16" offset="131" sl="125" sc="21" el="125" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="148" ordinal="17" offset="132" sl="126" sc="25" el="126" ec="50" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="149" ordinal="18" offset="135" sl="127" sc="25" el="127" ec="90" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="150" ordinal="19" offset="150" sl="129" sc="25" el="129" ec="50" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="151" ordinal="20" offset="161" sl="130" sc="25" el="130" ec="26" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="152" ordinal="21" offset="162" sl="131" sc="29" el="131" ec="52" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="153" ordinal="22" offset="170" sl="132" sc="29" el="132" ec="36" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="154" ordinal="23" offset="175" sl="134" sc="21" el="134" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="155" ordinal="24" offset="176" sl="136" sc="21" el="136" ec="44" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="156" ordinal="25" offset="188" sl="137" sc="21" el="137" ec="46" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="157" ordinal="26" offset="201" sl="138" sc="17" el="138" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="158" ordinal="27" offset="204" sl="140" sc="17" el="140" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="159" ordinal="28" offset="205" sl="141" sc="21" el="141" ec="53" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="160" ordinal="29" offset="217" sl="142" sc="17" el="142" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="161" ordinal="30" offset="219" sl="144" sc="17" el="144" ec="53" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="162" ordinal="31" offset="232" sl="147" sc="17" el="147" ec="127" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="163" ordinal="32" offset="268" sl="148" sc="13" el="148" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="164" ordinal="33" offset="271" sl="149" sc="13" el="149" ec="40" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="165" ordinal="34" offset="272" sl="150" sc="13" el="150" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="166" ordinal="35" offset="273" sl="151" sc="17" el="151" ec="40" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="167" ordinal="36" offset="281" sl="152" sc="13" el="152" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="168" ordinal="37" offset="284" sl="153" sc="13" el="153" ec="33" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="169" ordinal="38" offset="286" sl="154" sc="13" el="154" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="170" ordinal="39" offset="287" sl="155" sc="17" el="155" ec="49" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="171" ordinal="40" offset="302" sl="156" sc="17" el="156" ec="40" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="172" ordinal="41" offset="310" sl="157" sc="13" el="157" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="173" ordinal="42" offset="315" sl="159" sc="13" el="159" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="174" ordinal="43" offset="316" sl="161" sc="17" el="161" ec="75" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="175" ordinal="44" offset="341" sl="162" sc="13" el="162" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="176" ordinal="45" offset="343" sl="163" sc="9" el="163" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="177" ordinal="0" offset="12" sl="97" path="0" offsetend="14" fileid="17" />
+                <BranchPoint vc="0" uspid="178" ordinal="1" offset="12" sl="97" path="1" offsetend="20" fileid="17" />
+                <BranchPoint vc="0" uspid="181" ordinal="4" offset="129" sl="124" path="0" offsetend="131" fileid="17" />
+                <BranchPoint vc="0" uspid="182" ordinal="5" offset="129" sl="124" path="1" offsetend="176" fileid="17" />
+                <BranchPoint vc="0" uspid="183" ordinal="6" offset="159" sl="129" path="0" offsetend="161" fileid="17" />
+                <BranchPoint vc="0" uspid="184" ordinal="7" offset="159" sl="129" path="1" offsetend="175" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="131" ordinal="0" offset="0" sl="96" sc="9" el="96" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="8" nPathComplexity="64" sequenceCoverage="0" branchCoverage="0" crapScore="72" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="41" visitedSequencePoints="0" numBranchPoints="13" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" maxCrapScore="72" minCrapScore="72" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::ReceivedDataReadyHandler(System.IAsyncResult)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="185" ordinal="0" offset="0" sl="169" sc="9" el="169" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="186" ordinal="1" offset="1" sl="170" sc="13" el="170" ec="55" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="187" ordinal="2" offset="13" sl="172" sc="13" el="172" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="188" ordinal="3" offset="14" sl="173" sc="17" el="173" ec="44" bec="4" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="189" ordinal="4" offset="33" sl="174" sc="17" el="174" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="190" ordinal="5" offset="34" sl="176" sc="21" el="176" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="191" ordinal="6" offset="35" sl="177" sc="25" el="177" ec="54" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="192" ordinal="7" offset="48" sl="178" sc="21" el="178" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="193" ordinal="8" offset="51" sl="179" sc="21" el="179" ec="51" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="194" ordinal="9" offset="52" sl="180" sc="21" el="180" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="195" ordinal="10" offset="53" sl="181" sc="25" el="181" ec="32" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="196" ordinal="11" offset="58" sl="186" sc="21" el="186" ec="51" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="197" ordinal="12" offset="71" sl="187" sc="21" el="187" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="198" ordinal="13" offset="72" sl="188" sc="25" el="188" ec="48" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="199" ordinal="14" offset="80" sl="189" sc="21" el="189" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="200" ordinal="15" offset="83" sl="191" sc="21" el="191" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="201" ordinal="16" offset="84" sl="192" sc="25" el="192" ec="47" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="202" ordinal="17" offset="92" sl="193" sc="25" el="193" ec="63" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="203" ordinal="18" offset="105" sl="195" sc="25" el="195" ec="144" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="204" ordinal="19" offset="146" sl="196" sc="21" el="196" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="205" ordinal="20" offset="147" sl="197" sc="17" el="197" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="206" ordinal="21" offset="148" sl="198" sc="13" el="198" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="207" ordinal="22" offset="151" sl="199" sc="13" el="199" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="208" ordinal="23" offset="152" sl="200" sc="13" el="200" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="209" ordinal="24" offset="153" sl="202" sc="17" el="202" ec="63" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="210" ordinal="25" offset="182" sl="203" sc="17" el="203" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="211" ordinal="26" offset="183" sl="204" sc="21" el="204" ec="62" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="212" ordinal="27" offset="202" sl="205" sc="17" el="205" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="213" ordinal="28" offset="205" sl="207" sc="17" el="207" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="214" ordinal="29" offset="206" sl="208" sc="21" el="208" ec="44" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="215" ordinal="30" offset="214" sl="209" sc="17" el="209" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="216" ordinal="31" offset="215" sl="210" sc="13" el="210" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="217" ordinal="32" offset="218" sl="211" sc="13" el="211" ec="33" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="218" ordinal="33" offset="220" sl="212" sc="13" el="212" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="219" ordinal="34" offset="221" sl="213" sc="17" el="213" ec="36" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="220" ordinal="35" offset="231" sl="214" sc="17" el="214" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="221" ordinal="36" offset="232" sl="215" sc="21" el="215" ec="61" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="222" ordinal="37" offset="247" sl="216" sc="21" el="216" ec="44" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="223" ordinal="38" offset="255" sl="217" sc="17" el="217" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="224" ordinal="39" offset="256" sl="218" sc="13" el="218" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="225" ordinal="40" offset="259" sl="219" sc="9" el="219" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="226" ordinal="0" offset="15" sl="173" path="0" offsetend="17" fileid="17" />
+                <BranchPoint vc="0" uspid="227" ordinal="1" offset="15" sl="173" path="1" offsetend="20" fileid="17" />
+                <BranchPoint vc="0" uspid="228" ordinal="2" offset="31" sl="173" path="0" offsetend="33" fileid="17" />
+                <BranchPoint vc="0" uspid="229" ordinal="3" offset="31" sl="173" path="1" offsetend="148" fileid="17" />
+                <BranchPoint vc="0" uspid="230" ordinal="4" offset="69" sl="186" path="0" offsetend="71" fileid="17" />
+                <BranchPoint vc="0" uspid="231" ordinal="5" offset="69" sl="186" path="1" offsetend="83" fileid="17" />
+                <BranchPoint vc="0" uspid="232" ordinal="6" offset="180" sl="202" path="0" offsetend="182" fileid="17" />
+                <BranchPoint vc="0" uspid="233" ordinal="7" offset="180" sl="202" path="1" offsetend="205" fileid="17" />
+                <BranchPoint vc="0" uspid="234" ordinal="8" offset="184" sl="204" path="0" offsetchain="186" offsetend="202" fileid="17" />
+                <BranchPoint vc="0" uspid="235" ordinal="9" offset="184" sl="204" path="1" offsetend="188" fileid="17" />
+                <BranchPoint vc="0" uspid="236" ordinal="10" offset="229" sl="213" path="0" offsetend="231" fileid="17" />
+                <BranchPoint vc="0" uspid="237" ordinal="11" offset="229" sl="213" path="1" offsetend="256" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="185" ordinal="0" offset="0" sl="169" sc="9" el="169" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="23" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::DropConnection(Muses.Networking.TcpIpSocket)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="238" ordinal="0" offset="0" sl="228" sc="9" el="228" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="239" ordinal="1" offset="1" sl="229" sc="13" el="229" ec="31" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="240" ordinal="2" offset="9" sl="230" sc="13" el="230" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="241" ordinal="3" offset="10" sl="231" sc="17" el="231" ec="24" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="242" ordinal="4" offset="13" sl="235" sc="13" el="235" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="243" ordinal="5" offset="14" sl="237" sc="17" el="237" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="244" ordinal="6" offset="15" sl="238" sc="21" el="238" ec="44" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="245" ordinal="7" offset="27" sl="239" sc="21" el="239" ec="55" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="246" ordinal="8" offset="43" sl="240" sc="21" el="240" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="247" ordinal="9" offset="44" sl="241" sc="25" el="241" ec="53" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="248" ordinal="10" offset="57" sl="242" sc="21" el="242" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="249" ordinal="11" offset="58" sl="243" sc="17" el="243" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="250" ordinal="12" offset="61" sl="245" sc="17" el="245" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="251" ordinal="13" offset="62" sl="246" sc="21" el="246" ec="43" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="252" ordinal="14" offset="74" sl="247" sc="17" el="247" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="253" ordinal="15" offset="76" sl="249" sc="17" el="249" ec="61" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="254" ordinal="16" offset="89" sl="250" sc="17" el="250" ec="32" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="255" ordinal="17" offset="96" sl="251" sc="13" el="251" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="256" ordinal="18" offset="99" sl="252" sc="13" el="252" ec="33" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="257" ordinal="19" offset="100" sl="253" sc="13" el="253" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="258" ordinal="20" offset="101" sl="254" sc="17" el="254" ec="57" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="259" ordinal="21" offset="115" sl="255" sc="13" el="255" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="260" ordinal="22" offset="118" sl="256" sc="9" el="256" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="261" ordinal="0" offset="7" sl="229" path="0" offsetend="9" fileid="17" />
+                <BranchPoint vc="0" uspid="262" ordinal="1" offset="7" sl="229" path="1" offsetend="12" fileid="17" />
+                <BranchPoint vc="0" uspid="263" ordinal="2" offset="41" sl="239" path="0" offsetend="43" fileid="17" />
+                <BranchPoint vc="0" uspid="264" ordinal="3" offset="41" sl="239" path="1" offsetend="58" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="238" ordinal="0" offset="0" sl="228" sc="9" el="228" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="8" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="18" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::Dispose(System.Boolean)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="265" ordinal="0" offset="0" sl="291" sc="9" el="291" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="266" ordinal="1" offset="1" sl="292" sc="13" el="292" ec="33" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="267" ordinal="2" offset="14" sl="293" sc="13" el="293" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="268" ordinal="3" offset="15" sl="294" sc="17" el="294" ec="31" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="269" ordinal="4" offset="20" sl="295" sc="17" el="295" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="270" ordinal="5" offset="21" sl="297" sc="21" el="297" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="271" ordinal="6" offset="22" sl="298" sc="25" el="298" ec="48" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="272" ordinal="7" offset="34" sl="299" sc="25" el="302" ec="28" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="273" ordinal="8" offset="77" sl="303" sc="21" el="303" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="274" ordinal="9" offset="80" sl="305" sc="21" el="305" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="275" ordinal="10" offset="81" sl="306" sc="25" el="306" ec="47" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="276" ordinal="11" offset="93" sl="307" sc="21" el="307" ec="22" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="277" ordinal="12" offset="95" sl="309" sc="21" el="309" ec="39" bec="2" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="278" ordinal="13" offset="108" sl="309" sc="40" el="309" ec="56" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="279" ordinal="14" offset="120" sl="310" sc="17" el="310" ec="18" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="280" ordinal="15" offset="121" sl="312" sc="17" el="312" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="281" ordinal="16" offset="128" sl="313" sc="13" el="313" ec="14" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="282" ordinal="17" offset="129" sl="314" sc="9" el="314" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="283" ordinal="0" offset="12" sl="292" path="0" offsetend="14" fileid="17" />
+                <BranchPoint vc="0" uspid="284" ordinal="1" offset="12" sl="292" path="1" offsetend="129" fileid="17" />
+                <BranchPoint vc="0" uspid="285" ordinal="2" offset="18" sl="294" path="0" offsetend="20" fileid="17" />
+                <BranchPoint vc="0" uspid="286" ordinal="3" offset="18" sl="294" path="1" offsetend="121" fileid="17" />
+                <BranchPoint vc="0" uspid="289" ordinal="6" offset="106" sl="309" path="0" offsetend="108" fileid="17" />
+                <BranchPoint vc="0" uspid="290" ordinal="7" offset="106" sl="309" path="1" offsetend="120" fileid="17" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="265" ordinal="0" offset="0" sl="291" sc="9" el="291" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::Dispose()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="291" ordinal="0" offset="0" sl="317" sc="9" el="317" ec="10" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="292" ordinal="1" offset="1" sl="318" sc="13" el="318" ec="27" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="293" ordinal="2" offset="9" sl="319" sc="9" el="319" ec="10" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="291" ordinal="0" offset="0" sl="317" sc="9" el="317" ec="10" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer::&lt;Stop&gt;b__7_0(Muses.Networking.TcpIpSocket)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="294" ordinal="0" offset="0" sl="62" sc="43" el="62" ec="60" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="294" ordinal="0" offset="0" sl="62" sc="43" el="62" ec="60" bec="0" bev="0" fileid="17" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Muses.Networking.TcpIpServer/&lt;&gt;c__DisplayClass8_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer/&lt;&gt;c__DisplayClass8_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="295" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer/&lt;&gt;c__DisplayClass8_0::&lt;BroadcastMessage&gt;b__0(Muses.Networking.TcpIpSocket)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="296" ordinal="0" offset="0" sl="82" sc="49" el="82" ec="82" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="296" ordinal="0" offset="0" sl="82" sc="49" el="82" ec="82" bec="0" bev="0" fileid="17" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Muses.Networking.TcpIpServer/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="297" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="298" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpServer/&lt;&gt;c::&lt;Dispose&gt;b__19_0(Muses.Networking.TcpIpSocket)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="299" ordinal="0" offset="0" sl="300" sc="25" el="300" ec="26" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="300" ordinal="1" offset="1" sl="301" sc="29" el="301" ec="39" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="301" ordinal="2" offset="8" sl="302" sc="25" el="302" ec="26" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="299" ordinal="0" offset="0" sl="300" sc="25" el="300" ec="26" bec="0" bev="0" fileid="17" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="91" visitedSequencePoints="46" numBranchPoints="49" visitedBranchPoints="23" sequenceCoverage="50.55" branchCoverage="46.94" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="27.67" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="11" />
+          <FullName>Muses.Networking.TcpIpSocket</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>Muses.Networking.ITcpIpServiceProvider Muses.Networking.TcpIpSocket::get_Provider()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::set_Provider(Muses.Networking.ITcpIpServiceProvider)</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663319</MetadataToken>
+              <Name>Muses.Networking.TcpIpServer Muses.Networking.TcpIpSocket::get_Server()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::set_Server(Muses.Networking.TcpIpServer)</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Net.Sockets.Socket Muses.Networking.TcpIpSocket::get_Socket()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::set_Socket(System.Net.Sockets.Socket)</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Byte[] Muses.Networking.TcpIpSocket::get_Buffer()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::set_Buffer(System.Byte[])</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Boolean Muses.Networking.TcpIpSocket::get_HasData()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::set_HasData(System.Boolean)</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Net.EndPoint Muses.Networking.TcpIpSocket::get_RemoteEndPoint()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="302" ordinal="0" offset="0" sl="38" sc="20" el="38" ec="42" bec="2" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="303" ordinal="0" offset="7" sl="38" path="0" offsetend="9" fileid="20" />
+                <BranchPoint vc="0" uspid="304" ordinal="1" offset="7" sl="38" path="1" offsetend="13" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="302" ordinal="0" offset="0" sl="38" sc="20" el="38" ec="42" bec="2" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpSocket::get_AvailableData()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="305" ordinal="0" offset="0" sl="46" sc="20" el="46" ec="42" bec="2" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="306" ordinal="0" offset="7" sl="46" path="0" offsetend="9" fileid="20" />
+                <BranchPoint vc="0" uspid="307" ordinal="1" offset="7" sl="46" path="1" offsetend="13" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="305" ordinal="0" offset="0" sl="46" sc="20" el="46" ec="42" bec="2" bev="0" fileid="20" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="20" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Boolean Muses.Networking.TcpIpSocket::get_IsConnected()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="308" ordinal="0" offset="0" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="309" ordinal="1" offset="1" sl="57" sc="17" el="57" ec="35" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="310" ordinal="2" offset="14" sl="58" sc="17" el="58" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="311" ordinal="3" offset="15" sl="59" sc="21" el="59" ec="34" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="312" ordinal="4" offset="19" sl="63" sc="17" el="63" ec="54" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="313" ordinal="5" offset="31" sl="65" sc="17" el="65" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="314" ordinal="6" offset="32" sl="69" sc="21" el="69" ec="46" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="315" ordinal="7" offset="39" sl="70" sc="21" el="70" ec="45" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="316" ordinal="8" offset="52" sl="71" sc="21" el="71" ec="44" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="317" ordinal="9" offset="67" sl="72" sc="21" el="72" ec="33" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="318" ordinal="10" offset="71" sl="74" sc="17" el="74" ec="42" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="319" ordinal="11" offset="73" sl="75" sc="17" el="75" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="320" ordinal="12" offset="74" sl="77" sc="21" el="77" ec="57" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="321" ordinal="13" offset="101" sl="78" sc="21" el="78" ec="22" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="322" ordinal="14" offset="102" sl="79" sc="25" el="79" ec="37" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="323" ordinal="15" offset="106" sl="81" sc="21" el="81" ec="34" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="324" ordinal="16" offset="110" sl="84" sc="17" el="84" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="325" ordinal="17" offset="111" sl="86" sc="21" el="86" ec="53" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="326" ordinal="18" offset="124" sl="87" sc="17" el="87" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="327" ordinal="19" offset="126" sl="88" sc="13" el="88" ec="14" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="328" ordinal="0" offset="12" sl="57" path="0" offsetend="14" fileid="20" />
+                <BranchPoint vc="0" uspid="329" ordinal="1" offset="12" sl="57" path="1" offsetend="19" fileid="20" />
+                <BranchPoint vc="0" uspid="330" ordinal="2" offset="99" sl="77" path="0" offsetend="101" fileid="20" />
+                <BranchPoint vc="0" uspid="331" ordinal="3" offset="99" sl="77" path="1" offsetend="106" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="308" ordinal="0" offset="0" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="20" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::.ctor(System.Net.Sockets.Socket)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="332" ordinal="0" offset="0" sl="27" sc="56" el="27" ec="67" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="7" uspid="333" ordinal="1" offset="12" sl="17" sc="9" el="17" ec="44" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="7" uspid="334" ordinal="2" offset="19" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="7" uspid="335" ordinal="3" offset="20" sl="19" sc="13" el="19" ec="80" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="1" vc="1" />
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="6" uspid="336" ordinal="4" offset="43" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="332" ordinal="0" offset="0" sl="27" sc="56" el="27" ec="67" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="1" vc="1" />
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="2" vc="1" />
+                  <TrackedMethodRef uid="3" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                  <TrackedMethodRef uid="4" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="100" crapScore="2.03" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="80" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.03" minCrapScore="2.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpSocket::Read(System.Byte[])</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="339" ordinal="0" offset="0" sl="100" sc="9" el="100" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="340" ordinal="1" offset="1" sl="101" sc="13" el="101" ec="32" bec="2" bev="2" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="341" ordinal="2" offset="9" sl="101" sc="33" el="101" ec="81" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="342" ordinal="3" offset="20" sl="102" sc="13" el="102" ec="51" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="343" ordinal="4" offset="34" sl="103" sc="9" el="103" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="344" ordinal="0" offset="7" sl="101" path="0" offsetend="9" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="3" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="345" ordinal="1" offset="7" sl="101" path="1" offsetend="20" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="339" ordinal="0" offset="0" sl="100" sc="9" el="100" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="3" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="7" nPathComplexity="32" sequenceCoverage="25" branchCoverage="36.36" crapScore="27.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="20" visitedSequencePoints="5" numBranchPoints="11" visitedBranchPoints="4" sequenceCoverage="25" branchCoverage="36.36" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="27.67" minCrapScore="27.67" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpSocket::Read(System.Byte[],System.Int32,System.Int32)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="346" ordinal="0" offset="0" sl="113" sc="9" el="113" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="347" ordinal="1" offset="1" sl="114" sc="13" el="114" ec="32" bec="2" bev="2" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="348" ordinal="2" offset="9" sl="114" sc="33" el="114" ec="81" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="349" ordinal="3" offset="20" sl="115" sc="13" el="115" ec="32" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="350" ordinal="4" offset="30" sl="115" sc="33" el="115" ec="82" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="351" ordinal="5" offset="41" sl="117" sc="13" el="117" ec="49" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="352" ordinal="6" offset="70" sl="118" sc="13" el="118" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="353" ordinal="7" offset="71" sl="121" sc="17" el="121" ec="29" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="354" ordinal="8" offset="81" sl="122" sc="17" el="122" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="355" ordinal="9" offset="82" sl="125" sc="21" el="125" ec="37" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="356" ordinal="10" offset="90" sl="126" sc="21" el="126" ec="51" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="357" ordinal="11" offset="104" sl="127" sc="21" el="127" ec="48" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="358" ordinal="12" offset="121" sl="128" sc="21" el="128" ec="22" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="359" ordinal="13" offset="122" sl="129" sc="25" el="129" ec="38" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="360" ordinal="14" offset="127" sl="132" sc="21" el="132" ec="22" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="361" ordinal="15" offset="128" sl="133" sc="25" el="133" ec="136" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="362" ordinal="16" offset="174" sl="137" sc="17" el="137" ec="18" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="363" ordinal="17" offset="175" sl="139" sc="21" el="139" ec="84" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="364" ordinal="18" offset="194" sl="142" sc="13" el="142" ec="22" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="365" ordinal="19" offset="199" sl="143" sc="9" el="143" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="366" ordinal="0" offset="7" sl="114" path="0" offsetend="9" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="2" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="367" ordinal="1" offset="7" sl="114" path="1" offsetend="20" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="368" ordinal="2" offset="28" sl="115" path="0" offsetend="30" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="369" ordinal="3" offset="28" sl="115" path="1" offsetend="41" fileid="20" />
+                <BranchPoint vc="0" uspid="372" ordinal="6" offset="68" sl="117" path="0" offsetend="70" fileid="20" />
+                <BranchPoint vc="0" uspid="373" ordinal="7" offset="68" sl="117" path="1" offsetend="194" fileid="20" />
+                <BranchPoint vc="0" uspid="374" ordinal="8" offset="79" sl="121" path="0" offsetend="81" fileid="20" />
+                <BranchPoint vc="0" uspid="375" ordinal="9" offset="79" sl="121" path="1" offsetend="174" fileid="20" />
+                <BranchPoint vc="0" uspid="376" ordinal="10" offset="119" sl="127" path="0" offsetend="121" fileid="20" />
+                <BranchPoint vc="0" uspid="377" ordinal="11" offset="119" sl="127" path="1" offsetend="127" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="346" ordinal="0" offset="0" sl="113" sc="9" el="113" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="2" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="100" crapScore="2.03" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="80" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.03" minCrapScore="2.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpSocket::Write(System.Byte[])</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="378" ordinal="0" offset="0" sl="151" sc="9" el="151" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="379" ordinal="1" offset="1" sl="152" sc="13" el="152" ec="32" bec="2" bev="2" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="380" ordinal="2" offset="9" sl="152" sc="33" el="152" ec="81" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="381" ordinal="3" offset="20" sl="153" sc="13" el="153" ec="52" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="382" ordinal="4" offset="34" sl="154" sc="9" el="154" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="383" ordinal="0" offset="7" sl="152" path="0" offsetend="9" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="384" ordinal="1" offset="7" sl="152" path="1" offsetend="20" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="378" ordinal="0" offset="0" sl="151" sc="9" el="151" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="7" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="50" branchCoverage="57.14" crapScore="6.00" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="5" numBranchPoints="7" visitedBranchPoints="4" sequenceCoverage="50" branchCoverage="57.14" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="6.00" minCrapScore="6.00" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Int32 Muses.Networking.TcpIpSocket::Write(System.Byte[],System.Int32,System.Int32)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="385" ordinal="0" offset="0" sl="164" sc="9" el="164" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="386" ordinal="1" offset="1" sl="165" sc="13" el="165" ec="32" bec="2" bev="2" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="387" ordinal="2" offset="9" sl="165" sc="33" el="165" ec="81" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="388" ordinal="3" offset="20" sl="166" sc="13" el="166" ec="32" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="1" uspid="389" ordinal="4" offset="30" sl="166" sc="33" el="166" ec="82" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="390" ordinal="5" offset="41" sl="168" sc="13" el="168" ec="59" bec="2" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="391" ordinal="6" offset="62" sl="169" sc="13" el="169" ec="14" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="392" ordinal="7" offset="63" sl="170" sc="17" el="170" ec="77" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="393" ordinal="8" offset="81" sl="172" sc="13" el="172" ec="22" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="0" uspid="394" ordinal="9" offset="85" sl="173" sc="9" el="173" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="395" ordinal="0" offset="7" sl="165" path="0" offsetend="9" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="4" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="396" ordinal="1" offset="7" sl="165" path="1" offsetend="20" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="1" uspid="397" ordinal="2" offset="28" sl="166" path="0" offsetend="30" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="398" ordinal="3" offset="28" sl="166" path="1" offsetend="41" fileid="20" />
+                <BranchPoint vc="0" uspid="399" ordinal="4" offset="60" sl="168" path="0" offsetend="62" fileid="20" />
+                <BranchPoint vc="0" uspid="400" ordinal="5" offset="60" sl="168" path="1" offsetend="81" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="385" ordinal="0" offset="0" sl="164" sc="9" el="164" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="7" vc="1" />
+                  <TrackedMethodRef uid="4" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="88.89" branchCoverage="60" crapScore="3.01" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="8" numBranchPoints="5" visitedBranchPoints="3" sequenceCoverage="88.89" branchCoverage="60" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3.01" minCrapScore="3.01" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::Close()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="401" ordinal="0" offset="0" sl="181" sc="9" el="181" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="402" ordinal="1" offset="1" sl="182" sc="13" el="182" ec="32" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="403" ordinal="2" offset="14" sl="183" sc="13" el="183" ec="14" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="404" ordinal="3" offset="15" sl="184" sc="17" el="184" ec="38" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="0" uspid="405" ordinal="4" offset="30" sl="184" sc="39" el="184" ec="76" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="2" uspid="406" ordinal="5" offset="43" sl="185" sc="17" el="185" ec="32" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="407" ordinal="6" offset="55" sl="186" sc="17" el="186" ec="27" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="408" ordinal="7" offset="62" sl="187" sc="13" el="187" ec="14" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="2" uspid="409" ordinal="8" offset="63" sl="188" sc="9" el="188" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="410" ordinal="0" offset="12" sl="182" path="0" offsetend="14" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="411" ordinal="1" offset="12" sl="182" path="1" offsetend="63" fileid="20" />
+                <BranchPoint vc="0" uspid="412" ordinal="2" offset="28" sl="184" path="0" offsetend="30" fileid="20" />
+                <BranchPoint vc="2" uspid="413" ordinal="3" offset="28" sl="184" path="1" offsetend="43" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="401" ordinal="0" offset="0" sl="181" sc="9" el="181" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="100" branchCoverage="57.14" crapScore="4" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="7" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="57.14" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::Dispose(System.Boolean)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="414" ordinal="0" offset="0" sl="195" sc="9" el="195" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="415" ordinal="1" offset="1" sl="196" sc="13" el="196" ec="33" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="416" ordinal="2" offset="14" sl="197" sc="13" el="197" ec="14" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="417" ordinal="3" offset="15" sl="198" sc="17" el="198" ec="31" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="418" ordinal="4" offset="20" sl="199" sc="17" el="199" ec="18" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="419" ordinal="5" offset="21" sl="200" sc="21" el="200" ec="40" bec="2" bev="1" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="420" ordinal="6" offset="34" sl="200" sc="41" el="200" ec="58" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="421" ordinal="7" offset="46" sl="201" sc="21" el="201" ec="35" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="422" ordinal="8" offset="54" sl="202" sc="17" el="202" ec="18" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="423" ordinal="9" offset="55" sl="204" sc="17" el="204" ec="39" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="424" ordinal="10" offset="62" sl="205" sc="13" el="205" ec="14" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="425" ordinal="11" offset="63" sl="206" sc="9" el="206" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="426" ordinal="0" offset="12" sl="196" path="0" offsetend="14" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="427" ordinal="1" offset="12" sl="196" path="1" offsetend="63" fileid="20" />
+                <BranchPoint vc="4" uspid="428" ordinal="2" offset="18" sl="198" path="0" offsetend="20" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="429" ordinal="3" offset="18" sl="198" path="1" offsetend="55" fileid="20" />
+                <BranchPoint vc="4" uspid="430" ordinal="4" offset="32" sl="200" path="0" offsetend="34" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </BranchPoint>
+                <BranchPoint vc="0" uspid="431" ordinal="5" offset="32" sl="200" path="1" offsetend="46" fileid="20" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="414" ordinal="0" offset="0" sl="195" sc="9" el="195" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                  <TrackedMethodRef uid="4" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Void Muses.Networking.TcpIpSocket::Dispose()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="432" ordinal="0" offset="0" sl="209" sc="9" el="209" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="433" ordinal="1" offset="1" sl="210" sc="13" el="210" ec="27" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+                <SequencePoint vc="4" uspid="434" ordinal="2" offset="9" sl="211" sc="9" el="211" ec="10" bec="0" bev="0" fileid="20">
+                  <TrackedMethodRefs>
+                    <TrackedMethodRef uid="6" vc="1" />
+                    <TrackedMethodRef uid="7" vc="1" />
+                    <TrackedMethodRef uid="4" vc="1" />
+                    <TrackedMethodRef uid="5" vc="1" />
+                  </TrackedMethodRefs>
+                </SequencePoint>
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="432" ordinal="0" offset="0" sl="209" sc="9" el="209" ec="10" bec="0" bev="0" fileid="20">
+                <TrackedMethodRefs>
+                  <TrackedMethodRef uid="6" vc="1" />
+                  <TrackedMethodRef uid="7" vc="1" />
+                  <TrackedMethodRef uid="4" vc="1" />
+                  <TrackedMethodRef uid="5" vc="1" />
+                </TrackedMethodRefs>
+              </MethodPoint>
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+      <TrackedMethods />
+    </Module>
+  </Modules>
+</CoverageSession>

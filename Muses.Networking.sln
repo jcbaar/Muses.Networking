@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muses.Networking", "Muses.Networking\Muses.Networking.csproj", "{3C1AE019-7242-41A3-9A01-F7B25A026F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muses.Networking.Tests", "Muses.Networking.Tests\Muses.Networking.Tests.csproj", "{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C1AE019-7242-41A3-9A01-F7B25A026F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1AE019-7242-41A3-9A01-F7B25A026F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1AE019-7242-41A3-9A01-F7B25A026F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1AE019-7242-41A3-9A01-F7B25A026F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0549B4E5-4B1E-482B-9A34-0DF9DF810022}
+	EndGlobalSection
+EndGlobal
