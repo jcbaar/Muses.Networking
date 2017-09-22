@@ -11,7 +11,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpServer_Construction_IllegalPort_Throws()
         {
-            using (var provider = new TestServiceProvider())
+            using (var provider = new TestServiceProvider()) 
             {
                 Assert.ThrowsException<ArgumentOutOfRangeException>(() => new TcpIpServer(provider, IPEndPoint.MinPort - 1));
                 Assert.ThrowsException<ArgumentOutOfRangeException>(() => new TcpIpServer(provider, IPEndPoint.MaxPort + 1));
