@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Muses.Networking.Tests
 {
@@ -7,6 +8,32 @@ namespace Muses.Networking.Tests
     [TestCategory("Integration tests")]
     public class IntegrationTests
     {
+        [TestMethod]
+        public async Task TcpClient_ConnectsAsync_TcpIpServer_CallsOnConnected_OnBoth()
+        {
+            using (var sprovider = new TestServiceProvider(true))
+            {
+                using (var cprovider = new TestServiceProvider())
+                {
+                    using (var server = new TestTcpIpServer(sprovider))
+                    {
+                        server.Server.Start();
+
+                        using (var client = new TcpIpClient(cprovider))
+                        {
+                            await client.ConnectAsync("127.0.0.1", server.Port);
+
+                            sprovider.ConnectedEvent.WaitOne(1000);
+                            cprovider.ConnectedEvent.WaitOne(1000);
+
+                            Assert.IsTrue(sprovider.ConnectedCalled, "TcpIpServer provider OnConnected not called.");
+                            Assert.IsTrue(cprovider.ConnectedCalled, "TcpIpClient provider OnConnected not called.");
+                        }
+                    }
+                }
+            }
+        }
+
         [TestMethod]
         public void TcpClient_Connects_TcpIpServer_CallsOnConnected_OnBoth()
         {

@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Muses.Networking
 {
@@ -34,6 +35,36 @@ namespace Muses.Networking
         /// </summary>
         /// <param name="address">The IP address to connect to.</param>
         /// <param name="port">The port number to connect to.</param>
+        public async Task ConnectAsync(string address, int port)
+        {
+            if (Socket != null) throw new InvalidOperationException("TcpIpClient already connected.");
+            try
+            {
+                IPAddress addr = IPAddress.Parse(address);
+
+                var clientSocket = new TcpClient();
+                await clientSocket.ConnectAsync(addr, port);
+
+                Socket = new TcpIpSocket(clientSocket, _provider);
+
+                _provider.OnConnected(Socket);
+                Socket.Stream.BeginRead(Socket.Buffer, 0, Socket.Buffer.Length, ReceivedDataReadyHandler, Socket);
+            }
+            catch (Exception)
+            {
+                Socket?.Close();
+                Socket = null;
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Creates a socket and connects it to the server. The method will
+        /// not return until either the connection was established or an
+        /// error occurs.
+        /// </summary>
+        /// <param name="address">The IP address to connect to.</param>
+        /// <param name="port">The port number to connect to.</param>
         public void Connect(string address, int port)
         {
             if (Socket != null) throw new InvalidOperationException("TcpIpClient already connected.");
@@ -41,13 +72,13 @@ namespace Muses.Networking
             {
                 IPAddress addr = IPAddress.Parse(address);
 
-                var clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+                var clientSocket = new TcpClient();
                 clientSocket.Connect(new IPEndPoint(addr, port));
 
                 Socket = new TcpIpSocket(clientSocket, _provider);
 
                 _provider.OnConnected(Socket);
-                Socket.Socket.BeginReceive(Socket.Buffer, 0, Socket.Buffer.Length, SocketFlags.None, ReceivedDataReadyHandler, Socket);
+                Socket.Stream.BeginRead(Socket.Buffer, 0, Socket.Buffer.Length, ReceivedDataReadyHandler, Socket);
             }
             catch (Exception)
             {
@@ -94,7 +125,7 @@ namespace Muses.Networking
                 {
                     try
                     {
-                        Socket.Socket.EndReceive(ar);
+                        Socket.Stream.EndRead(ar);
                     }
                     catch(ObjectDisposedException)
                     {
@@ -111,7 +142,7 @@ namespace Muses.Networking
                     {
                         Socket.HasData = true;
                         Socket.Provider.OnReceiveData(Socket);
-                        Socket.Socket.BeginReceive(Socket.Buffer, 0, Socket.Buffer.Length, SocketFlags.None, ReceivedDataReadyHandler, Socket);
+                        Socket.Stream.BeginRead(Socket.Buffer, 0, Socket.Buffer.Length, ReceivedDataReadyHandler, Socket);
                     }
                 }
             }

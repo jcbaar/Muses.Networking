@@ -13,13 +13,17 @@ namespace Muses.Networking
         /// <summary>
         /// Constructor. Initializes an instance of the object.
         /// </summary>
-        /// <param name="socket">The <see cref="Socket"/>.</param>
+        /// <param name="socket">The <see cref="TcpClient"/>.</param>
         /// <param name="provider">The <see cref="ITcpIpServiceProvider"/> instance that
         /// handles this socket.</param>
-        internal TcpIpSocket(Socket socket, ITcpIpServiceProvider provider)
+        internal TcpIpSocket(TcpClient socket, ITcpIpServiceProvider provider)
         {
             Socket = socket ?? throw new ArgumentNullException(nameof(socket));
             Provider = provider ?? throw new ArgumentNullException(nameof(provider));
+            if (IsConnected)
+            {
+                Stream = Socket.GetStream();
+            }
         }
         #endregion
 
@@ -32,7 +36,12 @@ namespace Muses.Networking
         /// <summary>
         /// Gets the actual <see cref="Socket"/> for this connection. 
         /// </summary>
-        internal Socket Socket { get; private set; }
+        internal TcpClient Socket { get; private set; }
+
+        /// <summary>
+        /// Gets the <see cref="NetworkStream"/> associated with the <see cref="TcpClient"/>
+        /// </summary>
+        internal NetworkStream Stream { get; private set; }
 
         /// <summary>
         /// Gets the internal buffer.
@@ -53,7 +62,7 @@ namespace Muses.Networking
         /// </summary>
         public IPEndPoint RemoteEndPoint
         {
-            get => Socket?.RemoteEndPoint as IPEndPoint;
+            get => Socket?.Client.RemoteEndPoint as IPEndPoint;
         }
 
         /// <summary>
@@ -79,15 +88,15 @@ namespace Muses.Networking
                 }
 
                 // Save the current blocking state of the socket.
-                bool blockingState = Socket.Blocking;
+                bool blockingState = Socket.Client.Blocking;
                 try
                 {
                     // Perform a non-blocking, 0-byte send over the socket. If it succeeds
                     // or throws a 10035 (WSAEWOULDBLOCK) error the socket is still
                     // connected.
                     byte[] tmp = new byte[1];
-                    Socket.Blocking = false;
-                    Socket.Send(tmp, 0, 0);
+                    Socket.Client.Blocking = false;
+                    Socket.Client.Send(tmp, 0, 0);
                     return true;
                 }
                 catch (SocketException e)
@@ -102,7 +111,7 @@ namespace Muses.Networking
                 finally
                 {
                     // Restore the original blocking state.
-                    Socket.Blocking = blockingState;
+                    Socket.Client.Blocking = blockingState;
                 }
             }
         }
@@ -164,13 +173,13 @@ namespace Muses.Networking
                     }
                     else
                     {
-                        return Socket.Receive(buffer, offset + Buffer.Length, count - Buffer.Length, SocketFlags.None) + Buffer.Length;
+                        return Stream.Read(buffer, offset + Buffer.Length, count - Buffer.Length) + Buffer.Length;
                     }
                 }
                 else
                 {
                     // Simply read the data from the socket.
-                    return Socket.Receive(buffer, offset, count, SocketFlags.None);
+                    return Stream.Read(buffer, offset, count);
                 }
             }
             return 0;
@@ -213,9 +222,10 @@ namespace Muses.Networking
             if (offset < 0 || offset >= buffer.Length) throw new ArgumentOutOfRangeException(nameof(offset));
             if (count < 0 || offset + count > buffer.Length) throw new ArgumentOutOfRangeException(nameof(count));
 
-            if (Socket.Poll(1000, SelectMode.SelectWrite))
+            if (Stream != null && Socket.Client.Poll(1000, SelectMode.SelectWrite))
             {
-                return Socket.Send(buffer, offset, count, SocketFlags.None);
+                Stream?.Write(buffer, offset, count);
+                return count;
             }
             return 0;
         }
@@ -229,8 +239,6 @@ namespace Muses.Networking
         {
             if (Socket != null)
             {
-                if (Socket.Connected) Socket.Shutdown(SocketShutdown.Both);
-                Socket.Close();
                 Dispose();
             }
         }
@@ -245,7 +253,12 @@ namespace Muses.Networking
             {
                 if (disposing)
                 {
-                    if (Socket != null) Socket.Dispose();
+                    if (Stream != null)
+                    {
+                        Stream.Close();
+                        Stream.Dispose();
+                    }
+                    if (Socket != null) Socket.Close();
                     Socket = null;
                 }
 

@@ -122,10 +122,10 @@ namespace Muses.Networking
             try
             {
                 // Accept the incoming connection request.
-                Socket conn;
+                TcpClient conn;
                 try
                 {
-                    conn = _listener.EndAcceptSocket(ar);
+                    conn = _listener.EndAcceptTcpClient(ar);
                 }
                 catch (ObjectDisposedException)
                 {
@@ -168,8 +168,8 @@ namespace Muses.Networking
                 socket.Provider.OnConnected(socket);
 
                 // Queue the IO receive job for the new connection.
-                conn.BeginReceive(socket.Buffer, 0, socket.Buffer.Length, SocketFlags.None, ReceivedDataReadyHandler, socket);
-                _listener?.BeginAcceptSocket(ConnectionReadyHandler, null);
+                socket.Stream.BeginRead(socket.Buffer, 0, socket.Buffer.Length, ReceivedDataReadyHandler, socket);
+                _listener?.BeginAcceptTcpClient(ConnectionReadyHandler, null);
             }
             catch (ThreadAbortException)
             {
@@ -194,7 +194,7 @@ namespace Muses.Networking
                 {
                     try
                     {
-                        socket.Socket.EndReceive(ar);
+                        socket.Stream.EndRead(ar);
                     }
                     catch(ObjectDisposedException)
                     {
@@ -212,7 +212,7 @@ namespace Muses.Networking
                         socket.HasData = true;
                         socket.Provider.OnReceiveData(socket);
 
-                        socket.Socket.BeginReceive(socket.Buffer, 0, socket.Buffer.Length, SocketFlags.None, ReceivedDataReadyHandler, socket);
+                        socket.Stream.BeginRead(socket.Buffer, 0, socket.Buffer.Length, ReceivedDataReadyHandler, socket);
                     }
                 }
             }

@@ -17,7 +17,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpSocket_Construction_Null_Provider_Argument_Throws()
         {
-            using (var socket = new Socket(SocketType.Stream, ProtocolType.IP))
+            using (var socket = new TcpClient())
             {
                 Assert.ThrowsException<ArgumentNullException>(() => new TcpIpSocket(socket, null));
             }
@@ -26,7 +26,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpSocket_ReadWrite_NullBuffer_Throws()
         {
-            using (var socket = new Socket(SocketType.Stream, ProtocolType.Tcp))
+            using (var socket = new TcpClient())
             {
                 using (var provider = new TestServiceProvider())
                 {
@@ -44,7 +44,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpSocket_ReadWrite_ArgumentsOutOfRange_Throws()
         {
-            using (var socket = new Socket(SocketType.Stream, ProtocolType.Tcp))
+            using (var socket = new TcpClient())
             {
                 using (var provider = new TestServiceProvider())
                 {
@@ -69,7 +69,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpSocket_Read_Closed_Throws()
         {
-            using (var socket = new Socket(SocketType.Stream, ProtocolType.Tcp))
+            using (var socket = new TcpClient())
             {
                 using (var provider = new TestServiceProvider())
                 {
@@ -85,7 +85,7 @@ namespace Muses.Networking.Tests
         [TestMethod]
         public void TcpIpSocket_Write_Closed_Throws()
         {
-            using (var socket = new Socket(SocketType.Stream, ProtocolType.Tcp))
+            using (var socket = new TcpClient())
             {
                 using (var provider = new TestServiceProvider())
                 {
