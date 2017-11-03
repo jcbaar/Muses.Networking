@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muses.Networking", "Muses.Networking\Muses.Networking.csproj", "{3C1AE019-7242-41A3-9A01-F7B25A026F36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muses.Networking.Tests", "Muses.Networking.Tests\Muses.Networking.Tests.csproj", "{5808FAEC-EE5B-4DD8-8B5C-D2706DBE5DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D84E9A1C-3348-4253-8810-B0A2BCC716F1}"
+	ProjectSection(SolutionItems) = preProject
+		DeployNuGetPackages.bat = DeployNuGetPackages.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

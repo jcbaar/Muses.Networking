@@ -1,0 +1,1 @@
+nuget init Muses.NetWorking\bin\Release\ D:\NuGet\LocalPackages
