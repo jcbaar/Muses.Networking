@@ -4,6 +4,11 @@
     <Authors>Jan van den Baard</Authors>
     <Company>Jan van den Baard</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A small networking library supporting a fully asynchronous TCP/IP server and client.</Description>
+    <Copyright>Copyright (C) 2017 Jan van den Baard</Copyright>
+    <PackageReleaseNotes>Version 1.0.0
+*************
+Initial version.</PackageReleaseNotes>
   </PropertyGroup>
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="del $(ProjectDir)bin\Release\*.nupkg 2&gt; nul" />
