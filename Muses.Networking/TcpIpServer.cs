@@ -45,7 +45,7 @@ namespace Muses.Networking
             {
                 _listener = new TcpListener(IPAddress.Any, _port);
                 _listener.Start();
-                _listener.BeginAcceptSocket(ConnectionReadyHandler, null);
+                _listener.BeginAcceptTcpClient(ConnectionReadyHandler, null);
                 return true;
             }
             return false;
