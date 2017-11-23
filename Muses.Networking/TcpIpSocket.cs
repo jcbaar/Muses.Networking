@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 
@@ -123,12 +124,13 @@ namespace Muses.Networking
         /// bytes.
         /// </summary>
         /// <param name="buffer">The buffer into which the data should be read.</param>
+        /// <param name="timeout">The timeout in milliseconds to wait for data to arrive. 0 means wait forever.</param>
         /// <exception cref="ArgumentNullException"><paramref name="buffer"/> is null.</exception>
         /// <returns>The number of bytes actually read.</returns>
-        public int Read(byte[] buffer)
+        public int Read(byte[] buffer, int timeout = 0)
         {
             if (buffer == null) throw new ArgumentNullException(nameof(buffer));
-            return Read(buffer, 0, buffer.Length);
+            return Read(buffer, 0, buffer.Length, timeout);
         }
 
         /// <summary>
@@ -137,6 +139,7 @@ namespace Muses.Networking
         /// <param name="buffer">The buffer into which the data should be stored.</param>
         /// <param name="offset">The offset into the buffer at which the data should be stored.</param>
         /// <param name="count">The maximum number of bytes to read.</param>
+        /// <param name="timeout">The timeout in milliseconds to wait for data to arrive. 0 means wait forever.</param>
         /// <exception cref="ArgumentNullException"><paramref name="buffer"/> is null.</exception>
         /// <exception cref="ObjectDisposedException">The object has been disposed.</exception>
         /// <exception cref="ArgumentOutOfRangeException">
@@ -149,40 +152,52 @@ namespace Muses.Networking
         /// </item>
         /// </list>
         /// </exception>
-        /// <returns>The number of bytes actually read.</returns>
-        public int Read(byte[] buffer, int offset, int count)
+        /// <returns>The number of bytes actually read or 0 when the connection was closed or -1
+        /// when there was no data to read or the read timed out.</returns>
+        public int Read(byte[] buffer, int offset, int count, int timeout = 0)
         {
             if (buffer == null) throw new ArgumentNullException(nameof(buffer));
             if (_disposedValue) throw new ObjectDisposedException("TcpIpSocket");
             if (offset < 0 || offset >= buffer.Length) throw new ArgumentOutOfRangeException(nameof(offset));
             if (count < 0 || offset + count > buffer.Length) throw new ArgumentOutOfRangeException(nameof(count));
 
-            if (HasData || Socket.Available > 0)
+            if (HasData || timeout > 0 || Socket.Available > 0)
             {
-                // Do we have valid data in the buffer from the BeginReceive()
-                // call?
-                if (HasData)
+                // This makes the assumption that if setting a receive timeout is expensive
+                // it does not do it when the timeout value did not actually change...
+                Socket.ReceiveTimeout = timeout;
+
+                try
                 {
-                    // Yes. Copy this data into the destination buffer and continue
-                    // to get the rest of the data.
-                    HasData = false;
-                    Buffer.CopyTo(buffer, offset);
-                    if (count == Buffer.Length)
+                    // Do we have valid data in the buffer from the BeginReceive()
+                    // call?
+                    if (HasData)
                     {
-                        return count;
+                        // Yes. Copy this data into the destination buffer and continue
+                        // to get the rest of the data.
+                        HasData = false;
+                        Buffer.CopyTo(buffer, offset);
+                        if (count == Buffer.Length)
+                        {
+                            return count;
+                        }
+                        else
+                        {
+                            return Stream.Read(buffer, offset + Buffer.Length, count - Buffer.Length) + Buffer.Length;
+                        }
                     }
                     else
                     {
-                        return Stream.Read(buffer, offset + Buffer.Length, count - Buffer.Length) + Buffer.Length;
+                        // Simply read the data from the socket.
+                        return Stream.Read(buffer, offset, count);
                     }
                 }
-                else
+                catch(IOException)
                 {
-                    // Simply read the data from the socket.
-                    return Stream.Read(buffer, offset, count);
+
                 }
             }
-            return 0;
+            return -1;
         }
 
         /// <summary>
