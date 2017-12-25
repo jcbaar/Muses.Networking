@@ -9,8 +9,8 @@ namespace Muses.Networking
     public interface ITcpIpServiceProvider
     {
         /// <summary>
-        /// Gets executed when the server accepts a new connection or, in case
-        /// of a <see cref="TcpIpClient"/>, the socket is connected.
+        /// Gets executed when the <see cref="TcpIpServer"/> accepts a new connection or, in case
+        /// of a <see cref="TcpIpClient"/>, the socket is connected. 
         /// </summary>
         /// <param name="socket">The connected socket.</param>
         void OnConnected(TcpIpSocket socket);
